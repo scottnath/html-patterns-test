@@ -1,0 +1,19 @@
+{
+  "name": "html-patterns-test",
+  "version": "0.0.1",
+  "description": "Public repository for experimenting with html pattern library options.",
+  "main": "figure-image/figure-image.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottnath/html-patterns-test.git"
+  },
+  "author": "Scott Nath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottnath/html-patterns-test/issues"
+  },
+  "homepage": "https://github.com/scottnath/html-patterns-test"
+}
