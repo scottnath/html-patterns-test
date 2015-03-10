@@ -1,5 +1,7 @@
 <figure>
   <img src="{{image.imageUrl}}" alt="{{image.imageAlt}}">
   <figcaption>{{figcaption}}</figcaption>
+  {% set header = { text: "anything" } %}
+  <div>{% include '../base/h1/h1.html' with header %}</div>
 </figure>
 

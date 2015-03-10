@@ -1,4 +1,5 @@
-pattern: ./figure-image.html,
-data: ./figure-image.yml,
-styles: ./figure-image.scss,
+pattern: ./figure-image.html
+data: ./figure-image.yml
+styles: ./figure-image.scss
 script: ./figure-image.js
+category: molecule
