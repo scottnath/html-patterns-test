@@ -1,6 +1,7 @@
 name: Heading Level 1
 description: First level heading for associated section
-displayTemplate: pattern
+pattern: ./h1.html
+category: base
 variables:
   header:
     text: Header 1

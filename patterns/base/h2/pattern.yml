@@ -1,6 +1,7 @@
 name: Heading Level 2
 description: Second level heading within an associated section
-displayTemplate: pattern
+pattern: ./h2.html
+category: base
 variables:
   header:
     text: Header 2
