@@ -1,0 +1,13 @@
+name: Document Tree
+description: Document Tree is a set of unordered lists which create a visual representation of a document tree hierarchy
+pattern: ./doc-tree.html
+styles: ./_doc-tree.scss
+category: molecules
+subcategory: components
+variables:
+	levels:
+	  level-one:
+	    - l1 thing1
+	    - l1 thing2
+	    - l1 thing3
+	    - l1 thing4

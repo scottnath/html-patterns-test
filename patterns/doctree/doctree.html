@@ -1,0 +1,16 @@
+{{levels}}
+<h2>LEVELS</h2>
+{% level in levels %}
+<hr>
+<div>{{level}}</div>
+<hr>
+{% endfor %}
+<ul class="doc-tree">
+  <li class="icon icon--folder-open">[pattern-name]<ul>
+    <li class="icon icon--document">pattern.yml</li>
+    <li class="icon icon--document">[pattern-name].html</li>
+    <li class="icon icon--document">[pattern-name].scss</li>
+    <li class="icon icon--document">[pattern-name].js</li>
+    <li class="icon icon--document">bower.json</li>
+    </ul></li>
+</ul>

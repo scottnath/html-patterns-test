@@ -1,10 +1,10 @@
 name: Figure Image
 description: FIGURE element with an IMAGE and a FIGCAPTION. For testing purposes, it also references the H1 base pattern
 pattern: ./figure-image.html
-data: ./figure-image.yml
 styles: ./figure-image.scss
 script: ./figure-image.js
-category: molecule
+category: molecules
+subcategory: media
 variables:
   image:
     imageUrl: http://placehold.it/350x150

@@ -1,0 +1,22 @@
+{
+  "name": "doctree",
+  "version": "0.0.1",
+  "homepage": "https://github.com/scottnath/html-patterns-test",
+  "authors": [
+    "Scott Nath <github@scottnath.com>"
+  ],
+  "main": "./doctree.html",
+  "pattern": {
+    "pattern": "./doctree.html",
+    "data": "./pattern.yml",
+    "styles": "./_doctree.scss"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
