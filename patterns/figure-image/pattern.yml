@@ -1,7 +1,7 @@
 name: Figure Image
 description: FIGURE element with an IMAGE and a FIGCAPTION. For testing purposes, it also references the H1 base pattern
 pattern: ./figure-image.html
-styles: ./figure-image.scss
+styles: ./_figure-image.scss
 script: ./figure-image.js
 category: molecules
 subcategory: media
