@@ -1,10 +1,23 @@
-{{levels}}
-<h2>LEVELS</h2>
-{% level in levels %}
-<hr>
-<div>{{level}}</div>
-<hr>
+LEVELS
+{% macro doctreeMacro(levels) %}
+  {% for level in levels %}
+    {% set elementIsObject = level|isObject %}
+    {% if elementIsObject %}
+      <li class="icon icon--folder-open">
+        {% for sublevel in level %}
+          {{sublevel}}
+        {% endfor %}
+      <ul>
+    {% else %}
+      <li class="icon icon--document">{{level}}</li>
+    {% endif %}
+  {% endfor %}
+{% endmacro %}
+
+{% for level in levels %}
+  {{doctreeMacro(level)}}
 {% endfor %}
+
 <ul class="doc-tree">
   <li class="icon icon--folder-open">[pattern-name]<ul>
     <li class="icon icon--document">pattern.yml</li>
