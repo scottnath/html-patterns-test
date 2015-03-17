@@ -1,6 +1,7 @@
 name: Heading Level 1
 description: First level heading for associated section
 pattern: ./h1.html
+styles: ./_h1.scss
 category: base
 variables:
   header:

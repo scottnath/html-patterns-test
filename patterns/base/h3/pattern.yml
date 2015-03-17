@@ -1,6 +1,7 @@
 name: Heading Level 3
 description: Third level heading within an associated section
 pattern: ./h3.html
+styles: ./_h3.scss
 category: base
 variables:
   header:

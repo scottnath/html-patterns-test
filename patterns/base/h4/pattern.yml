@@ -1,6 +1,7 @@
 name: Heading Level 4
 description: Fourth level heading within an associated section
 pattern: ./h4.html
+styles: ./_h4.scss
 category: base
 variables:
   header:

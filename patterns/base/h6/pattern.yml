@@ -1,6 +1,7 @@
 name: Heading Level 6
 description: Sixth level heading within an associated section
 pattern: ./h6.html
+styles: ./_h6.scss
 category: base
 variables:
   header:
