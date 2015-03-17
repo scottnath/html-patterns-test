@@ -5,6 +5,6 @@ styles: ./_img.scss
 category: base
 variables:
   img:
-    url: http://placehold.it/350x150
+    src: http://placehold.it/350x150
     alt: Aenean commodo ligula eget dolor. Aenean massa.
     class: base--img

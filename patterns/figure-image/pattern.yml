@@ -6,11 +6,11 @@ script: ./figure-image.js
 category: molecules
 subcategory: media
 variables:
-	figure:
-	  img:
-	    url: http://placehold.it/350x150
-	    alt: Aenean commodo ligula eget dolor. Aenean massa.
-	    class: figure--image
-	  caption:
-	    text: Aenean commodo ligula eget dolor. Aenean massa. Cumo sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-	  class: figure--MAIN
+  figure:
+    img:
+      src: http://placehold.it/350x150
+      alt: Aenean commodo ligula eget dolor. Aenean massa.
+      class: figure--image
+    caption:
+      text: Aenean commodo ligula eget dolor. Aenean massa. Cumo sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    class: figure--MAIN
