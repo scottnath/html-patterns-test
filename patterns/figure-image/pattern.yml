@@ -8,7 +8,7 @@ subcategory: media
 variables:
   figure:
     img:
-      src: http://placehold.it/350x150
+      src: http://placehold.it/350x150&text=figure--image
       alt: Aenean commodo ligula eget dolor. Aenean massa.
       class: figure--image
     caption:

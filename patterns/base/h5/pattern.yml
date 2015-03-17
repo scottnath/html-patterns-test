@@ -5,3 +5,4 @@ category: base
 variables:
   header:
     text: Header 5
+    class: base--h5

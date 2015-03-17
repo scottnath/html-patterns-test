@@ -8,4 +8,3 @@ Styling can be applied in the following ways:
 
 * `.base--h2` - class
 * `.base--STYLED h2` - `<h2>` tag inside a class of `.base--STYLED`
-* `%base--h2` - extended through Sass

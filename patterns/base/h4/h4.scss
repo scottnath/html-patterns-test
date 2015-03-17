@@ -1,11 +1,7 @@
-@import '../../../core/sass/core';
+/* Primary SASS file for the h4 HTML header pattern
 
-@import 'partials/vars';
-@import 'partials/settings';
-@import 'partials/mixins';
-@import 'partials/extends';
+*/
 
 .base--h4,
 .base--STYLED h4 {
-  @extend %base--h4;
 }
